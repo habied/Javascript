@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;  
+    background-image: url("Images/Background_3.jpg");
+}
+
+.levelInfo{
+    width: 100;
+    height: auto;
+    display: flex;
+}
+
+.infoItem{
+    width: 22%;
+    height: auto;
+    margin: auto;
+    background-color:  rgba(0, 0, 0, 0.3);
+    border-radius: 50px; 
+    text-align: center;
+    font: bold 22px georgia, serif;
+    opacity: 80%;
+    color: rgb(255, 255, 255);
+    padding: 1%;  
+}
+
+#xIcon {
+    width: 10%;
+    position: relative;
+    left: 100%;
+    margin-left: -12%;
+}
+
+p {
+    text-align: center;
+    font: bold 22px georgia, serif;
+    opacity: 80%;
+    color: rgb(0, 0, 0);
+}
+
+.Message {
+    
+    width: 30%;
+    height: 400px;
+    margin-left: -15%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    background-color:  rgba(255, 255, 255, 0.7);
+    padding: 1%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.Message img {
+    width: 30%;
+    position: relative;
+    left: 50%;
+    margin-left: -15%;
+    
+}
+
+.button {
+    background-color: #255527;
+    color: white;
+    border: none;
+    width: 30%;
+    padding: 10px;
+    border-radius: 25px; 
+    position: relative;
+    left: 50%;
+    margin-left: -15%;
+}
+
+.EndingMessage {
+    height: 60%;
+}
+
+.EndingMessage img {
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    margin-left: -20%;
+}
+
+.hide {
+    display: none;
+}
+
+.birds {
+    width: 100px;
+    height: auto;
+    position: absolute;
+}
+
+.bomb {
+    width: 80px;
+    height: auto;
+    position: absolute;
+}
+
+
+

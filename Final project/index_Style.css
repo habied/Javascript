@@ -1,0 +1,83 @@
+body {
+    background-image: url("Images/Background_1.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;  
+}
+
+p {
+    text-align: center;
+    font: bold 24px georgia, serif;
+    opacity: 80%;
+}
+
+.container {
+    width: 30%;
+    margin-left: -15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color:  rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 25px;
+    
+}
+
+form {
+    
+    margin-top: -23%;
+    
+}
+
+img {
+    width: auto;
+    height: 70%;
+    display: inline;
+    margin: 10%;
+    
+}
+
+.button {
+    background-color: #255527;
+    color: white;
+    border: none;
+    width: 30%;
+    padding: 10px;
+    border-radius: 25px; 
+    position: relative;
+    left: 50%;
+    margin-left: -15%;
+    margin-top: 10px;
+}
+
+.scores {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+select {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    margin-left: -35%;
+    margin-top: -10px;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    margin-left: -25%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    background-color: rgb(218, 218, 218);
+}

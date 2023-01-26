@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Killing Birds Game</title>
+    <link rel="stylesheet" href="game_Style.css" />
+  </head>
+
+
+  <body>
+    <div class="levelInfo">
+      <div class="infoItem">Welcome:</div>
+      <div class="infoItem">Score: 0</div>
+      <div class="infoItem">Time Limit: 1:00</div>
+      <div class="infoItem">Birds Killed: 0</div>
+    </div>
+
+    <div class="container">
+      <div class="Message">
+        <img src="Images/Warning_sign.png" />
+        <p>Welcome</p>
+        <p>
+          Hope you enjoy our Game!<br>
+          To win, Your Score must exceed 50 in specified time
+        </p>
+        <input class="button" type="submit" value="Start Game" />
+      </div>
+
+      <div class="Message hide">
+        <img id="xIcon" src="images/x.png" />
+        <p>Your score is: </p>
+        
+
+        <div class="EndingMessage hide">
+          <p>Congrats,You won!</p>
+          <img src="images/Happy_face.png"/>
+        </div>
+
+        <div class="EndingMessage hide">
+          <p>You lost!</p>
+          <img src="images/sad_face.png" /><br />
+        </div>
+
+        <input class="button" type="submit" value="Play again"/>
+      </div>
+
+    <img class="birds hide first" src="/Images/bird_1.png" alt="greenbird">
+    <img class="birds hide second" src="/Images/bird_2.png" alt="bluebird">
+    <img class="birds hide third" src="/Images/bird_3.png" alt="redbird">
+    <img class="bomb  hide" src="images/bomb-2025548_1280.png" alt="bomb">
+    </div>
+
+    
+    <script src="FunctionScripts.js"></script>
+    <script src="ConsumingFunctions.js"></script>
+  </body>
+</html>
